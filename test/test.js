@@ -44,7 +44,7 @@ function ValidatePin(pin){
 
 describe('First Exersise', function() {
   it('4 Chars', function() {
-    assert.equal(Solution("1234"),['12', '34']);
+    assert.equal(Solution("1234"),['12', '34']); //Should Compare two arrays
   });
 
 });
